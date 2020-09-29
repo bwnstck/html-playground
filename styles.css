@@ -37,6 +37,10 @@
         border-radius: 10px;
     }
 
+    img:hover {
+        transform: scale(2);
+    }
+
     footer {
         position: fixed;
         left: 45%;
