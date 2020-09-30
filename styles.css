@@ -1,7 +1,13 @@
     * {
+        margin: 0;
+        padding: 0;
         text-align: center;
         color: white;
         font-family: 'Shadows Into Light', cursive;
+    }
+
+    *+* {
+        margin-top: 1em;
     }
 
     body {
@@ -42,6 +48,12 @@
         margin: 2em;
     }
 
+    li>a {
+        font-family: 'Fredoka One', cursive;
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
     img {
         padding-top: 1em;
         border-radius: 10px;
@@ -51,9 +63,30 @@
         transform: scale(2);
     }
 
+    select {
+        width: 200px;
+        background-color: greenyellow;
+        color: purple;
+        border-radius: 10px;
+    }
+
+    label {
+        font-family: 'Fredoka One', cursive;
+        font-size: 1.2rem;
+    }
+
     footer {
         position: fixed;
         left: 45%;
         bottom: 2vh;
         box-sizing: content-box;
+    }
+
+
+    .inputFields {
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+        justify-content: center;
     }
