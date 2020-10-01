@@ -15,6 +15,10 @@
   margin-top: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .wrapper {
   width: 60%;
   margin: auto;
