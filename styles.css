@@ -10,13 +10,15 @@
   margin-top: 1em;
 }
 
-body {
+* + body {
   background-color: rebeccapurple;
+  margin-top: 0;
 }
 
 .wrapper {
   width: 60%;
   margin: auto;
+  padding-top: 100px;
 }
 
 h1,
@@ -36,6 +38,13 @@ h2 {
   color: palegoldenrod;
 }
 
+nav {
+  position: fixed;
+  background: rebeccapurple;
+  width: 100vw;
+  height: 75px;
+  box-shadow: 1px 1px 10px black;
+}
 nav > ul {
   display: flex;
   margin: 0 auto;
@@ -50,17 +59,12 @@ ul {
 
 li {
   font-size: 1.1rem;
-  margin: 2em;
+  margin: 1em;
 }
 
 li > a {
   font-family: "Fredoka One", cursive;
   font-size: 1.5rem;
-  text-decoration: none;
-  color: white;
-}
-li > a:hover {
-  color: white;
   text-decoration: none;
 }
 
