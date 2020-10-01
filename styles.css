@@ -59,6 +59,10 @@ li > a {
   text-decoration: none;
   color: white;
 }
+li > a:hover {
+  color: white;
+  text-decoration: none;
+}
 
 li > span:hover {
   transform: scale(1.5);
